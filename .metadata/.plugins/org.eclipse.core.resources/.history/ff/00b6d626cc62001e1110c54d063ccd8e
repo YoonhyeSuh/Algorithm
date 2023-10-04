@@ -1,0 +1,13 @@
+
+//순서대로 킹, 퀸, 룩, 비숍, 나이트, 폰의 개수를 입력받는다
+//이번엔 BufferedReader로 받아보는 연습
+//입력받은 수 - 원래 수를 계산해서 출력한다
+
+public class bj_3003 {
+
+	public static void main(String[] args) {
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+
+	}
+
+}

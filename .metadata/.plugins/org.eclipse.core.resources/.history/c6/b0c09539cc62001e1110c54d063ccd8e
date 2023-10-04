@@ -1,0 +1,28 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+//순서대로 킹, 퀸, 룩, 비숍, 나이트, 폰의 개수를 입력받는다
+//BufferReader로 문자열 한줄씩 읽기
+//StringTokenizer로 입력받은 문자열을 공백으로 분리
+//IOException 까먹지 않기
+//입력받은 수 - 원래 수를 계산해서 출력한다
+
+public class bj_3003 {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");
+		
+		int king = 1;
+		int queen = 1;
+		int rook = 2;
+		int bishop = 2;
+		int knight = 2;
+		int pawn = 8;
+		
+		king = Integer.parseInt(st.nextToken()) - king;
+	}
+
+}
