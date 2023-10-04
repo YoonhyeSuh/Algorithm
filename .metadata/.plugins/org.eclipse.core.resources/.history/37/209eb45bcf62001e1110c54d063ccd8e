@@ -1,0 +1,17 @@
+
+//과목명, 학점, 등급 20줄을 입력받기
+//BufferReader로 입력받기
+//for문을 돌려서 20줄 입력받기
+//각 등급 int형으로 저장
+//for문을 이용해서 학점*등급을 계산하고 sum 변수로 총점 저장
+//score변수를 이용해서 sum/20을 계산해 전공평점 저장
+//score 출력
+
+public class bj_25206 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

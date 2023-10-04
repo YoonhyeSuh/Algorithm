@@ -1,0 +1,35 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+
+//과목명, 학점, 등급 20줄을 입력받기
+//BufferReader로 입력받기
+//for문을 돌려서 20줄 입력받기
+//StringTokenzier로 과목명, 학점, 등급 각각 저장
+//switch문을 이용해서 등급에 따라 과목평점 부여하고 학점*과목평점을 계산하여 sum 변수로 총점 저장
+//score변수를 이용해서 sum/학점의 총합을 계산해 전공평점 저장
+//score 출력 10의 -4승이므로 소수점 6번째자리까지 출력
+
+public class bj_25206 {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		for(int i = 0; i < 20; i++) {
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			String subject = st.nextToken();
+			double credit = Double.parseDouble(st.nextToken());
+			String grade = st.nextToken();
+			
+			double sum = 0;
+			double score = 0;
+			
+			double aplus=4.5;
+			double azero=4.0;
+			double bplus = 3.5;
+			double bzeor=
+		}
+	}
+
+}
